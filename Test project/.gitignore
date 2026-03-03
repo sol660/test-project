@@ -1,0 +1,31 @@
+# ESP-IDF and general build artifacts
+build/
+build_*_*/
+sdkconfig
+sdkconfig.old
+
+# Dependency lock files
+dependencies.lock
+
+# Python cache and environment files
+.pytest_cache/
+__pycache__/
+venv/
+.venv/
+
+# IDE and OS specific files
+.DS_Store # macOS
+.vscode/ # Visual Studio Code settings (optional, can be tracked if shared)
+*.o
+*.pyc
+*~ # Emacs temp files
+.#*
+\#*#
+.settings # Eclipse settings
+
+# Build logs and reports
+build_summary_*.xml
+app_info_*.txt
+size_info_*.txt
+pytest_embedded_log/
+TEST_LOGS
